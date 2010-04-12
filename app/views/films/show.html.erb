@@ -1,0 +1,13 @@
+<p>
+  <b>Imdb:</b>
+  <%=h @film.imdb_id %>
+</p>
+
+<p>
+  <b>Place:</b>
+  <%=h @film.place %>
+</p>
+
+
+<%= link_to 'Edit', edit_film_path(@film) %> |
+<%= link_to 'Back', films_path %>
